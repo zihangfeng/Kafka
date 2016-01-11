@@ -1,4 +1,4 @@
-# Kafka
+# Kafka Setup
 
 Kafka is a framework to handle real time data/feeds. In this repository, it is gonna show how to install this powerful framework, and run a typical example in the Ubuntu OS.
 
