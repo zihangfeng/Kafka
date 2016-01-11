@@ -11,4 +11,4 @@ Kafka is a framework to handle real time data/feeds. In this repository, it is g
 7. To create the producer/message sender, use the third terminal and type "bin/kafka-console-producer.sh --broker-list localhost:9092 --topic firsttopic".Now, you can type any messages in the terminal and those messages will be saved in the broker waiting for the consumer to read them. Type "it is good" and hit enter.
 8. Open the fourth terminal, go to the same folder, and type "bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic firsttopic --from-beginning". You will see a message you gave in the third terminal.
 
-The basic setup is pretty straight forword. that is of course more to discover about the Kafka. However, here shows how the Kafka works.
+The basic setup is pretty straight forword. that is of course more to discover about the Kafka.
