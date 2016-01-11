@@ -3,7 +3,7 @@
 Kafka is a framework to handle real time data/feeds. In this repository, it is gonna show how to install this powerful framework, and run a typical example in the Ubuntu OS.
 
 1. It needs to install the latest version of Java(assuming everyone knows how to do that in Ubuntu)
-2. Download the lastest stable release of Kafka "http://kafka.apache.org/downloads.html". Use this URL to download the binary file, similar to  "kafka_2.11-0.9.0.0.tgz". In they change the name of the download page, simply use google to find it out. After finishing the download process, create a folder and name it whatever as the uesr like, I named it as Kafka, and extract that downloaded file into that folder.
+2. Download the lastest stable release of Kafka "http://kafka.apache.org/downloads.html". Use this URL to download the binary file, something similar to  "kafka_2.11-0.9.0.0.tgz". In they change the name of the download page, simply use google to find it out. After finishing the download process, create a folder and name it whatever as the uesr like, I named it as Kafka, and extract that downloaded file into that folder.
 3. Use timinal to go to that folder, in my case Kafka, and type "export KAFKA_HOME=/Kafka/kafka_2.11-0.9.0.0", depending on the version of the kafka folder, it can change over time. Then hit enter. And type "export PATH=$PATH:$KAFKA_HOME/bin"
 4. Go to the kafka_2.11-0.9.0.0 folder and start to run the zookeeper by typing "bin/zookeeper-server-start.sh config/zookeeper.properties", and hit enter. 
 5. Open another terminal to start the broker. Go to the same folder and type "bin/kafka-server-start.sh config/server.properties" and hit enter.
